@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <style media="screen">
+      body{
+        background-color: #344a72;
+      }
+      .signup-box{
+        width: 360px;
+        height: 620px;
+        margin: auto;
+        background-color: white;
+        border-radius: 3px;
+      }
+      h1{
+        text-align: center;
+        padding-top: 15px;
+      }
+      h4{
+        text-align: center;
+      }
+      form{
+        width: 300px;
+        margin-left: 20px;
+      }
+      form label{
+        display: flex;
+        margin-top: 20px;
+        font-size: 18px;
+      }
+      form input{
+        width: 100%;
+        padding: 7px;
+        border: none;
+        border: 1px solid gray;
+        border-radius: 6px;
+        outline: none;
+      }
+      input[type="button"]{
+         width: 320;
+         height: 35px;
+         margin-top: 20px;
+         border: none;
+         background-color: #49c1a2;
+         color: white;
+         font-size: 18px;
+      }
+      p{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 15px;
+      }
+      .para{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        margin-top: -10px;
+      }
+      .para a{
+        color: #49c1a2;
+      }
+
+    </style>
+  </head>
+  <body>
+        <!--
+          names
+          email
+          password
+          Name of institution {church name}
+          position
+
+          confirm mail
+        -->
+        <div class="signup-box">
+          <h1>Sign Up</h1>
+          <h4>It's free and only takes a minute</h4>
+          <form>
+            <label>First Name</label>
+            <input type="text" placeholder="Enter firstname">
+            <label>Last Name</label>
+            <input type="text" placeholder="Enter lastname">
+            <label>Email</label>
+            <input type="email" placeholder="">
+            <label>Password</label>
+            <input type="password" placeholder="Enter password">
+            <label>confirm Password</label>
+            <input type="password" placeholder="">
+            <input type="button" value="Submit">
+          </form>
+          <p>By clicking the Sign Up button,you agree to our <br>
+          <a href="#">Terms and conditions</a>and <a href="#">Policy Privacy</a>
+         </p>
+        </div>
+        <p class="para">Already have an account? <a href="/login">Login Here</a></p>
+  </body>
+</html>
