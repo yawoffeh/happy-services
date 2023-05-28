@@ -1,0 +1,2 @@
+# happy-services
+Django webapp
